@@ -46,9 +46,9 @@ if(!(trim($firstname)==''))
                           if (mysqli_connect_error()) {
                            die('Connect Error('. mysqli_connect_errno().')'. mysqli_connect_error());
                           } else {
-                           $SELECT = "SELECT email From Clienti Where email = ? Limit 1";
-                           $SELECT2 = "SELECT Username From Clienti Where Username = ? Limit 1";
-                           $INSERT = "INSERT Into Clienti (Nume,Prenume,Username,Telefon,Parola,Email,Domiciliu,Data_nasterii,Sex) values(?, ?, ?, ?, ?, ?, ?, ?, ?)";
+                           $SELECT = "SELECT email From clienti Where email = ? Limit 1";
+                           $SELECT2 = "SELECT Username From clienti Where Username = ? Limit 1";
+                           $INSERT = "INSERT Into clienti (Nume,Prenume,Username,Telefon,Parola,Email,Domiciliu,Data_nasterii,Sex) values(?, ?, ?, ?, ?, ?, ?, ?, ?)";
                            //Prepare statement
                            $stmt = $conn->prepare($SELECT2);
                            $stmt->bind_param("s", $username);

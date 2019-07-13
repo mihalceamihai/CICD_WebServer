@@ -184,7 +184,7 @@
 	</div>
 
 	<div class="improvfooter">
-				<p>AutoMosMobile, Copyright &copy; 2018</p>
+				<p>AutoMosMobile, Copyright &copy; 2019</p>
 	</div>
 </body>
 

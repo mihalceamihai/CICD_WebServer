@@ -236,9 +236,9 @@
         if(!(trim($parameters)==''))
         {
 
-          $query="SELECT * FROM MASINI WHERE ".$parameters;
+          $query="SELECT * FROM masini WHERE ".$parameters;
         }
-        else {$query="SELECT * FROM MASINI"; }
+        else {$query="SELECT * FROM masini"; }
         $result=mysqli_query($conn,$query);
         if($result->num_rows == 0)
         {
@@ -277,7 +277,7 @@
 
 
     <footer>
-					<p>AutoMosMobile, Copyright &copy; 2018</p>
+					<p>AutoMosMobile, Copyright &copy; 2019</p>
 		</footer>
 
   </body>

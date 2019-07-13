@@ -65,7 +65,7 @@
   </section>
 
   <footer>
-    <p>AutoMosMobile, Copyright &copy; 2018</p>
+    <p>AutoMosMobile, Copyright &copy; 2019</p>
   </footer>
 
 
