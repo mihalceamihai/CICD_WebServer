@@ -29,22 +29,22 @@ if(!(trim($username) == ''))
 
          $_SESSION["auth"] = "true";
          $_SESSION["usr_name"] = "$username";
-         header("Location: /tema_web/pagini/acasa.php");
+         header("Location: /webpages/pagini/acasa.php");
        }
        else { echo "<script type='text/javascript'>alert('Parola introdusa gresit!');</script>";
                 $mesaj="Parola introdusa gresit!";
-              header("Location: /tema_web/pagini/login.php?message=$mesaj");
+              header("Location: /webpages/pagini/login.php?message=$mesaj");
             }
      } else { echo "<script type='text/javascript'>alert('Numele de utilizator nu exista!');</script>";
         $mesaj="Numele de utilizator nu exista!";
-        header("Location: /tema_web/pagini/login.php?message=$mesaj"); }
+        header("Location: /webpages/pagini/login.php?message=$mesaj"); }
     }
   } else {   $mesaj="Va rugam completati campul pentru parola!";
      echo "<script type='text/javascript'>alert('Va rugam completati campul pentru parola!');</script>";
-   header("Location: /tema_web/pagini/login.php?message=$mesaj");  }
+   header("Location: /webpages/pagini/login.php?message=$mesaj");  }
 }else  { $mesaj="Va rugam completati campul pentru nume de utilizator!";
   echo "<script type='text/javascript'>alert('Va rugam completati campul pentru nume de utilizator!');</script>";
-header("Location: /tema_web/pagini/login.php?message=$mesaj"); }
+header("Location: /webpages/pagini/login.php?message=$mesaj"); }
 
 
 

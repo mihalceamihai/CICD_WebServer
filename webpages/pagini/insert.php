@@ -93,5 +93,5 @@ if(!(trim($firstname)==''))
     }else  { echo "<script type='text/javascript'>alert('Va rugam completati campul pentru nume de utilizator!');</script>"; die();}
   } else { echo "<script type='text/javascript'>alert('Va rugam completati campul pentru nume!');</script>"; die();}
 } else { echo "<script type='text/javascript'>alert('Va rugam completati campul pentru prenume!');</script>"; die();}
-header("Location:/tema_web/pagini/login.php");
+header("Location:/webpages/pagini/login.php");
 ?>

@@ -84,6 +84,6 @@ if(!(trim($pret)=='') && !($pret=='Pret')) //Pret
   }
 }
 
-header("Location:/tema_web/pagini/listaremasini.php?para=$parameters2&pagina=2");
+header("Location:/webpages/pagini/listaremasini.php?para=$parameters2&pagina=2");
 
 ?>

@@ -25,5 +25,5 @@ if(isset($_SESSION["auth"]) )
  $stmt->close();
  $conn->close();
 }
-header("Location:/tema_web/pagini/cos.php");
+header("Location:/webpages/pagini/cos.php");
 ?>

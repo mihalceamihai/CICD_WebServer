@@ -6,5 +6,5 @@ session_unset();
 // destroy the session
 session_destroy();
 
-header("Location:/tema_web/pagini/acasa.php");
+header("Location:/webpages/pagini/acasa.php");
 ?>

@@ -122,12 +122,12 @@ else { echo "<script type='text/javascript'>alert('Va rugam sa va logati!');</sc
 
 if($pag==='detprodus')
 {
-   header("Location: /tema_web/pagini/detprodus.php?id_masina=$idmasina&message=$mesaj");
+   header("Location: /webpages/pagini/detprodus.php?id_masina=$idmasina&message=$mesaj");
 }
 if($pag==='listaremasini')
 {
-  header("Location: /tema_web/pagini/listaremasini.php?pagina=4&param=$parametriiinit&mes=$mesaj");
+  header("Location: /webpages/pagini/listaremasini.php?pagina=4&param=$parametriiinit&mes=$mesaj");
   echo $mesaj;
 }
-//header("Location:/tema_web/pagini/listaremasini.php?param=$parametrii&mesagge=$mesaj&pagina=4");
+//header("Location:/webpages/pagini/listaremasini.php?param=$parametrii&mesagge=$mesaj&pagina=4");
 ?>
