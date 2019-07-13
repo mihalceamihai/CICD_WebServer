@@ -36,7 +36,7 @@ jobs:
           command: |
             echo "$DOCKERHUB_PASS" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
 #            IMAGE_TAG="licentaWebServer"
-            IMAGE_TAG="$(cat VERSION)"
+            IMAGE_TAG=$(cat VERSION)
             docker tag $IMAGE_NAME:latest $IMAGE_NAME:$IMAGE_TAG
             docker push $IMAGE_NAME:$IMAGE_TAG
 workflows:
