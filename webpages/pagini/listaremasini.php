@@ -135,7 +135,7 @@
 
           if(($_GET['pagina'])=='1') {
             $caroserie2=$_GET['caroserie_masina'];
-            echo "<script type='text/javascript'>alert($caroserie2);</script>";
+            //echo "<script type='text/javascript'>alert($caroserie2);</script>";
             $parameters=$parameters."Caroserie=".$caroserie2;
             }
         else if(($_GET['pagina'])=='2') {
@@ -143,7 +143,7 @@
             }
         else if(($_GET['pagina'])=='4'){
           $mesaj=$_GET['mes'];
-          echo "<script type='text/javascript'>alert('$mesaj');</script>";
+          //echo "<script type='text/javascript'>alert('$mesaj');</script>";
           $parameters=$_GET['param'];
         }  else {
 
