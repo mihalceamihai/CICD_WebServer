@@ -131,7 +131,7 @@
 
         $parameters="";
         $pag=$_GET['pagina'];
-        echo "<script type='text/javascript'>alert($pag);</script>";
+//        echo "<script type='text/javascript'>alert($pag);</script>";
 
           if(($_GET['pagina'])=='1') {
             $caroserie2=$_GET['caroserie_masina'];
@@ -237,8 +237,10 @@
         {
 
           $query="SELECT * FROM masini WHERE ".$parameters;
+          echo "<script type='text/javascript'>alert($query);</script>";
         }
-        else {$query="SELECT * FROM masini"; }
+        else {$query="SELECT * FROM masini"; echo "<script type='text/javascript'>alert($query);</script>"; }
+ //       echo "<script type='text/javascript'>alert('Dupa verificari');</script>";
         $result=mysqli_query($conn,$query);
         if($result->num_rows == 0)
         {
